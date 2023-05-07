@@ -16,7 +16,7 @@ CONFIG_PATH = os.path.join(CONFIG_DIR, "config.toml")
 DB_PATH = os.path.join(LOG_DIR, "downloads.db")
 FAILED_DB_PATH = os.path.join(LOG_DIR, "failed_downloads.db")
 
-DOWNLOADS_DIR = os.path.join(HOME, "/content/drive/MyDrive")
+DOWNLOADS_DIR = os.path.join(HOME, "/content/drive/Shareddrives/MUSIC")
 
 URL_REGEX = re.compile(
     r"https?://(?:www|open|play|listen)?\.?(qobuz|tidal|deezer)\.com(?:(?:/(album|artist|track|playlist|video|label))|(?:\/[-\w]+?))+\/([-\w]+)"
